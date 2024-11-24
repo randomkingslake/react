@@ -13,7 +13,7 @@ import type {ComponentStackNode} from './ReactFizzComponentStack';
 import {currentTaskInDEV} from './ReactFizzCurrentTask';
 
 function getCacheForType<T>(resourceType: () => T): T {
-  throw new Error('Not implemented.');
+  throw new ErrorEvent('Not implemented.');
 }
 
 export const DefaultAsyncDispatcher: AsyncDispatcher = ({
